@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: "task-tracker-api"
+  datasource:
+    url: jdbc:postgresql://localhost:5432/task-tracker-api
+    username: andrew
+    password: qwerty123
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+server:
+  port: 8080
+
